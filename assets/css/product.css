@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.breadcrumb a{
+	color: silver;
+}
+.breadcrumb a:hover{
+    color: black;
+    text-decoration: none;
+}
+.bcrum{
+	margin-left: 11.5%;
+	margin-right: 12%;
+	margin-top: 10px;
+	border-color: silver;
+}
+
+body{
+    background-color: #f7fbfd;
+    font-family: 'Roboto', sans-serif;
+}
+.label-success{
+    margin-left: 3px;
+}
+.tel a:hover{
+    color: black;
+}
+.tel a{
+    color: gray;
+}
+.nav-tabs a{
+    color:#999da0;
+}
+.nav-tabs a:hover{
+    color: black;
+}
+.table_head{
+    font-weight:bold ;
+}
+.img_section a:hover{
+    opacity: 0.3;
+}
+.img-thumbnail{
+    width: 90px;
+    height: 70px;
+}
+.tab-pane{
+    margin-top: 20px;
+}
+.modal-header{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.cart-box{
+    margin-top: 31px;
+    border-color: gainsboro;
+    border-style: none;
+    box-shadow: aliceblue;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 5px 10px 18px silver;
+}
+.cart-items{
+    margin-left:9px;
+    margin-right: 9px;
+    align-items: center;
+}
+.stock-title{
+   margin-bottom: 10px; 
+    margin-top: 0%;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: white;
+    color: #f4bc1c;
+}
+
+@media screen and (max-width: 790px) {
+    .cart-box{
+    margin:30px;
+    } 
+   }
+   @media screen and (max-width: 480px){
+    .img-thumbnail{
+        width: 200px;
+        height: 60px;
+    }
+   }
+   @media screen and (min-width:680px) and (max-width: 940px){
+       .carousel-inner{
+           width: 60%;
+           margin-left: 140px;
+       }
+   }

@@ -1,0 +1,52 @@
+.footer-top {
+    margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	background-color: #c62121;
+}
+
+.text-Subscribe {
+	color: #FFF;
+	font-size: 18px;
+	padding-right: 10px;
+}
+
+.footer {
+	color: #FFF;
+	background-color: #e33232;
+}
+
+.footer-bottom {
+	background: #e43a39;
+	color: #ffffff;
+}
+
+.footer-logo {
+	padding: 0px 30px 0px 30px;
+}
+
+.footer-bottom .container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.paymentMethodImg {
+	display: flex;
+	align-content: center;
+	padding-bottom: 10px;
+}
+ul>li>a{
+    color: whitesmoke;
+}
+ul>li>a:hover{
+    color: silver;
+}
+#btn_newsletter{
+    color: #fff;
+    background-color: #c00;
+    border-color: #800000;
+    margin-left: 8px;
+    box-shadow: 2px 5px 2px -9px#e43a39;
+}

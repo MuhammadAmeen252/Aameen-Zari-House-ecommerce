@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aameen Zari</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/product.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    </head>
+    <body>
+     <div class="Nav-Container">
+        <div class="logo">
+            <a href="index.html"><img src="../images/logo.png" class="logo-pic"></a>
+        </div>
+        <div class="category-list">
+            <ul class="categoryList">
+                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">CASUAL</a></li>
+                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">PARTY</a></li>
+                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">MEXI</a></li>
+                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">SAREE</a></li>
+            </ul>
+        </div>
+        <div class="wrap">
+            <div class="searchBox">
+               <input type="text" class="searchTermBox" placeholder="What are you looking for?">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
+         <div class="header-icons">
+             <a href="##">
+                <i class="fa fa-facebook-square fa-2x iconsHeader" aria-hidden="true"></i>
+             </a>
+            
+             <a href="#" >
+                <i class="fa fa-heart fa-2x iconsHeader" ></i>
+             </a>
+             <a href="###" >
+                <i class="fa fa-shopping-bag fa-2x iconsHeader"></i>
+             </a>
+             
+         </div>
+     </div> 
+
+     <!---Product page bread crumb-->
+
+          <ul class="bcrum breadcrumb" style="margin-right: 11%;">
+            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+            <li class="breadcrumb-item active">Feedback</li>
+         </ul>
+
+         <div class="container center-block">
+            <div class="panel-group" id="accordion">
+               <h2>Give us any Feedback</h2>
+               <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                     <form role="form" class="col-md-4">
+                        <div class="form-group">
+                           <label class="form-label">Query Form <span style="color: red;">*</span></label>
+                           <div class="controls">
+                              <select id="fb_enquiry" class="form-control" class="input-xlarge">
+                                 <option value="" selected="selected">(please select)</option>
+                                 <option value="General enquiry">General enquiry</option>
+                                 <option value="Product enquiry">Product enquiry</option>
+                                 <option value="Service enquiry">Service enquiry</option>
+                                 <option value="Feedback">Feedback</option>
+                                 <option value="Issues">Issues</option>
+                              </select>
+                              <p id="fb-type-validation" style="font-style: italic;color: red;"></p>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <label for="nameoftheorganisation">Name of the Organisation</label>
+                           <input type="name" class="form-control" id="fb_org_name" placeholder="Organisation Name">
+                        </div>
+                        <div class="form-group">
+                           <label for="name">Name <span style="color: red;">*</span></label>
+                           <input type="name" class="form-control" id="fb_username" placeholder="Enter Your Name">
+                           <p id="fb-user-validation" style="font-style: italic;color: red;"></p>
+                        </div>
+                        <div class="form-group">
+                           <label for="mobilenumber">Mobile <span style="color: red;">*</span></label>
+                           <input type="text" class="form-control" id="fb_mobile" placeholder="Enter Your Mobile Number">
+                           <p id="fb-mobile-validation" style="font-style: italic;color: red;"></p>
+                        </div>
+                        <div class="form-group">
+                           <label for="exampleInputEmail1">Email address <span style="color: red;">*</span></label>
+                           <input type="email" class="form-control" id="fb_email" placeholder="Enter your email">
+                           <p id="fb-email-validation" style="font-style: italic;color: red;"></p>
+                        </div>
+                        <div class="form-group">
+                           <label for="exampleInputPassword1">Enquiry <span style="color: red;">*</span></label>
+                           <textarea type="text" class="form-control" id="fb_message" placeholder="Write your query here"></textarea>
+                           <p id="fb-msg-validation" style="font-style: italic;color: red;"></p>
+                        </div>
+                        <button type="submit" style="background-color: #c62121;" class="btn btn-danger id="fb_submit_btn">Submit</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+     <!---Footer-->
+
+     <div class="container-fluid">
+        <div class="row footer-top">
+           <form class="form-inline" style="margin-top: 12px;">
+              <label class="text-Subscribe">SIGN UP FOR NEWSLETTER  </label>
+              <div class="form-group">
+                 <input type="text" id="newsletter_name" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                 <input type="email" id="newsletter_email" class="form-control" placeholder="Email">
+              </div>
+              <button type="submit" id="btn_newsletter" class="btn btn-success">SUBSCRIBE</button>
+              <p style="color: white; font-style: italic; text-align: center;"
+               id="subscription_sucess"></p>
+           </form>
+        </div>
+     </div>
+     <!-- Primary Footer -->
+     <div class="footer">
+        <div class="container">
+           <div class="row" style="padding: 30px 0;">
+              <div class="col-lg-3 footer-logo">
+                 <!-- <img src="/assets/images/logo.png" id="footer1_imgLogo" style="width: 100%; padding-bottom: 20px;" alt="Computer Zone"> -->
+                 <h3>Aameen Zari House</h3>
+                 <div id="footer1_divFooterContent" class="footer-content">Welcome to Aameen Zari House. We sell lehnga, mexi's, suits and saree at best prices in Pakistan.</div>
+              </div>
+              <div class="col-lg-9">
+                 <div id="footer1_divFooterMenu">
+                    <div class="col-lg-3">
+                       <h3>Products</h3>
+                       <ul class="list-unstyled">
+                        <li><a href="#">Mexi</a></li>
+                        <li><a href="#">Lehnga</a></li>
+                        <li><a href="#">Suits</a></li>
+                        <li><a href="#">Saree</a></li>
+                       </ul>
+                    </div>
+                    <div class="col-lg-3">
+                       <h3>Top selling</h3>
+                       <ul class="list-unstyled">
+                          <li><a href="#">Mexi</a></li>
+                          <li><a href="#">Lehnga</a></li>
+                          <li><a href="#">Suits</a></li>
+                          <li><a href="#">Saree</a></li>
+                       </ul>
+                    </div>
+                    <div class="col-lg-3">
+                       <h3>Corporate</h3>
+                       <ul class="list-unstyled">
+                          <li><a href="aboutus.html">About Us</a></li>
+                          <li><a href="contactus.html">Contact</a></li>
+                          <li><a href="FAQs.html">FAQs</a></li>
+                          <li><a href="policy.html">Policies</a></li>
+                       </ul>
+                    </div>
+                    <div class="col-lg-3">
+                       <h3> Contact </h3>
+                       <ul class="contactBox list-unstyled">
+                          <li><i class="fa fa-map-marker"></i><a class="inline"> Rawalpindi, Pakistan</a>
+                          </li>
+                          <li><i class="fa fa-phone"></i><a class="inline"> +92-3450000000</a></li>
+                          <li><i class="fa fa-envelope-o"></i><a class="inline" href="emailto:info@infinityComputers.com.pk"> info@infinity.com.pk</a></li>
+                       </ul>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+
+
+
+     <!-- Bottom Footer -->
+     <div class="footer-bottom">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-4 col-sm-12 col-xs-12">
+                 <div class="small text-center">
+                    <p>Copyright © Infinity Computers 2020. All rights reserved.</p>
+                 </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-xs-12 paymentMethodImg">
+                 <div class="center-block">
+                    <img height="25" class="pull-right" src="../images/icons/visa_card.png" alt="img" style="margin-right: 5px;">
+                    <img height="25" class="pull-right" src="../images/icons/paypal.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/american_express_card.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/discover_network_card.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/master_card.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/google_wallet.png" alt="img" style="margin-right: 5px;">
+                 </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-xs-12">
+                 <div class="small text-center">
+                    <p>Designed & developed by <strong>Muhammad Ameen</strong>.</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+          
+    </body>
+</html>
