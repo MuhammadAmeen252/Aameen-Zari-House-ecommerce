@@ -3,36 +3,49 @@
 .Nav-Container{
     display: flex;
     margin-top: 2px;
-    height: 160px;
+    height: 100px;
     background-color: white;
     box-shadow: 0px 15px 10px -15px #e9e9e9;    
 
 }
+.wrapIcon2{
+    display: none;
+}
 .logo{
     
+}
+.navinverse{
+    box-shadow: 0px 15px 10px -15px #e9e9e9; 
 }
 a:hover{
     text-decoration: none;
 }
 .logo-pic{
-    width: 160px;
-    height: 140px;
-    margin-left: 60px;
-    margin-top: 3px;
+    width: 290px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-right: 10px;
 }
-.category-list{
-    width: 80%;
-    height: 55px;
-    background-color: '#e5e5e5e';
-    margin-top: 55px;
-    margin-left: 15px;
-}
-.categoryList{
+.topHeader{
+    margin-top: 38px;
     display: flex;
+}
+/* .category-list{
+    width: 80%;
+    height: 30px;
+    background-color: '#e5e5e5e';
+    margin-top: 30px;
+    margin-left: 15px;
+} */
+.categoryList{
     list-style-type: none;
+    margin-top: 70px;
+    font-family: 'Roboto';
+    font-weight: bold;
 }
 .listItem{
-    margin-right: 50px;
+    margin-right: 20px;
     color: black;
     
 }
@@ -66,11 +79,9 @@ a:hover{
     width: 100%;
 }
 /*search bar*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body{
   margin:0px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .searchBox {
@@ -78,7 +89,7 @@ body{
 }
 
 .searchTermBox {
-  width: 290px;
+  width: 320px;
   border: 3px solid whitesmoke;
   border-right: none;
   padding: 5px;
@@ -92,7 +103,21 @@ body{
 .searchTermBox:focus{
   background-color: whitesmoke
 }
-
+#iconBAR{
+    background-color: black;
+    height: 2px;
+    box-shadow: 0px 15px 10px -15px #e9e9e9;
+    
+}
+#btntogle:hover{
+    background-color:whitesmoke ;
+    
+}
+#btntogle{
+    margin-left: 14px;
+    margin-top: 50px;
+    border-color: white;
+}
 .searchButton {
   width: 40px;
   height: 36px;
@@ -110,21 +135,27 @@ button.searchButton:hover{
 /*Resize the wrap to see the search bar change!*/
 .wrap{
     width: 30%;
-    margin-left: 30px;
-    margin-top: 48px;
+    margin-left: 2px;
+    margin-top: 8px;
 }
 .header-icons{
     display:flex;
-    height: 50px;
-    margin-right:20%;
-    margin-left:10%;
-    margin-top: 52px;
+    margin-top: 12px;
+    margin-right:10px;
+    margin-left:60px;
 }
 .iconsHeader{
   margin-right: 35px;
   color: black
 }
+.iconsHeadercart{
+    margin-right: 35px;
+    color: black 
+}
 .iconsHeader:hover{
+    color: #c62121;
+}
+.iconsHeadercart:hover{
     color: #c62121;
 }
 
@@ -139,3 +170,136 @@ button.searchButton:hover{
       left: 0;
       min-height: 500px;
   }
+  #headerStyle{
+      display: flex
+  }
+  
+@media screen and (max-width: 375px) {
+    #headerStyle{
+        display:block
+    }
+    #btntogle{
+        position: absolute;
+        margin-top: 123px;
+        background-color: #e9e9e9;
+        
+    }
+    .wrap{
+        margin-left: 50px;
+        position: absolute;
+        
+    }
+    
+    .searchTermBox {
+        width: 170px;
+        border: 3px solid whitesmoke;
+        border-right: none;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        font-size: small;
+        outline: none;
+        color: black;
+        height: 36px;
+      }
+      /* #fbLogo{
+          display: none;
+      }
+      #cartLogo{
+          display: none;
+      } */
+      .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid whitesmoke;
+        background: white;
+        text-align: center;
+        color: #c62121;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 3.5px;
+      }
+      .logo-pic{
+        width: 230px;
+        height: 100px;
+        margin-top: 6px;
+        margin-right: 10px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .categoryList{
+        font-family: 'Roboto';
+        font-weight: bold;
+    }
+    #myNavbar{
+        margin-top: 60px;
+        width: 40%;
+    }
+    .topHeader{
+        margin-top: 8px;
+        
+    }
+    
+    .Nav-Container{
+        display: flex;
+        margin-top: 2px;
+        height: 100px;
+        background-color: white;
+        box-shadow: 0px 15px 10px -15px #e9e9e9;   
+    }
+    /* .header-icons{display: none;} */
+    .iconsHeadercart{
+        
+    }
+    .wrapIcon{
+        display: block;
+        margin-top: 80px;
+        color: black;
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 210px;
+        margin-bottom: 7px;
+    }
+    .iconsHeadercart:hover{
+        color: #c62121;
+    }
+    #cartLogo{
+        position: absolute;
+    }
+    a>.iconsHeader{
+        display: none;
+    }
+    #carousel-example-generic{
+        margin-top: 30px;
+    }
+    .navinverse{
+        box-shadow: none;
+    }
+    .wrapIcon2{
+        display: block;
+    }
+    .wrapIcon2>a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    .wrapIcon2>a{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    /* #shadow{
+        padding: 10px;
+        box-shadow: 0px 15px 10px -15px #e9e9e9;   
+        margin-top: 39px;  
+    } */
+    /* #headerStyle{
+        box-shadow: 0px 15px 10px -15px #e9e9e9; 
+        height: 100px;
+    }
+} */
+}

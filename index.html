@@ -11,39 +11,76 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
     </head>
     <body>
-     <div class="Nav-Container">
-        <div class="logo">
-            <a href="index.html"><img src="assets/images/logo.png" class="logo-pic"></a>
-        </div>
-        <div class="category-list">
-            <ul class="categoryList">
-                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">CASUAL</a></li>
-                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">PARTY</a></li>
-                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">MEXI</a></li>
-                <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">SAREE</a></li>
-            </ul>
-        </div>
-        <div class="wrap">
+
+     <!--Nav bar-->
+     <nav class="navbar navbar-inverse navinverse" style="background-color: white;border-color: white;">
+        <div class="container-fluid" id="headerStyle" >
+           <div class="navbar-header">
+              <button type="button" class="navbar-toggle" id="btntogle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar" id="iconBAR"></span>
+              <span class="icon-bar" id="iconBAR"></span>
+              <span class="icon-bar" id="iconBAR"></span>
+              </button>
+           </div>
+           <div class="logo">
+            <a href="index.html"><img src="assets/images/logonew.png" class="logo-pic"></a>
+           </div>
+        <div class="topHeader">
+            <div class="collapse navbar-collapse" id="myNavbar">
+            
+                <ul class="nav navbar-nav categoryList" id="navList">
+                    <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="index.html">HOME</a></li>
+                    <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="assets/pages/aboutus.html">ABOUTUS</a></li>
+                    <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">PARTY</a></li>
+                    <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">MEXI</a></li>
+                    <li class="listItem"><a class="listItemLink" style="color: black;text-decoration: none;" href="#">SAREE</a></li>
+                    
+                    <li >
+                        <div class="wrapIcon2" style="margin-top: 7px;">
+                            <a href="###" class="listItem" style="color: black;text-decoration: none; margin-right: 10px;">
+                                <i class="fa fa-shopping-bag fa-x iconsHeadercart" id="cartLogo" style="margin-top: 3px;margin-left: 14px;"></i>
+                                <span style="margin-left: 30px;"> CART</span>
+                             </a>
+                        </div>
+                    </li>
+                </ul>
+              
+              <!-- <ul class="nav navbar-nav navbar-right">
+                 <li><a href="#"  class="f_facebook gap"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                 <li><a href="#"  class="t_twitter gap"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                 <li><a href="#" class="fa fa-google"></a></li>
+              </ul> -->
+           </div>
+           <div class="wrap">
             <div class="searchBox">
                <input type="text" class="searchTermBox" placeholder="What are you looking for?">
                <button type="submit" class="searchButton">
                  <i class="fa fa-search"></i>
               </button>
             </div>
-         </div>
-         <div class="header-icons">
-             <a href="##">
-                <i class="fa fa-facebook-square fa-2x iconsHeader" aria-hidden="true"></i>
-             </a>
+           </div>
+
+           <div class="header-icons">
+            <a href="##" >
+               <i class="fa fa-facebook-square fa-2x iconsHeader" id="fbLogo" aria-hidden="true"></i>
+            </a>
+           
+            <a href="#" >
+               <i class="fa fa-heart fa-2x iconsHeader" id="heartLogo"></i>
+            </a>
+            <div class="wrapIcon">
+                <a href="###" id="cartLogo">
+                    <i class="fa fa-shopping-bag fa-2x iconsHeadercart" id="cartLogo"></i>
+                 </a>
+            </div>
             
-             <a href="#" >
-                <i class="fa fa-heart fa-2x iconsHeader" ></i>
-             </a>
-             <a href="###" >
-                <i class="fa fa-shopping-bag fa-2x iconsHeader"></i>
-             </a>
-             
-         </div>
+            
+            </div>
+        </div>
+           
+        </div>
+     </nav>
+     <div id="shadow">
      </div>
     <!-- IMAGE SLIDER -->
     <div class="container">
@@ -106,7 +143,7 @@
                     <img src="assets/images/img2.webp" alt="">
                 </div>
                 <div class="product-details">
-                    <h4><a href="">vintage</a></h4>
+                    <h4><a href="assets/pages/product.html">vintage</a></h4>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$96.00</small>$230.99</div>
                         <div class="product-links">
@@ -122,7 +159,7 @@
                     <img src="assets/images/img3.webp" alt="">
                 </div>
                 <div class="product-details">
-                    <h4><a href="">CASUAL saree</a></h4>
+                    <h4><a href="assets/pages/product.html">CASUAL saree</a></h4>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$96.00</small>$230.99</div>
                         <div class="product-links">
@@ -138,7 +175,7 @@
                     <img src="assets/images/img5.webp" alt="">
                 </div>
                 <div class="product-details">
-                    <h4><a href="">Miterse</a></h4>
+                    <h4><a href="assets/pages/product.html">Miterse</a></h4>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$96.00</small>$230.99</div>
                         <div class="product-links">
@@ -154,7 +191,7 @@
                     <img src="assets/images/img6.webp" alt="">
                 </div>
                 <div class="product-details">
-                    <h4><a href="">Indus saree</a></h4>
+                    <h4><a href="assets/pages/product.html">Indus saree</a></h4>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$96.00</small>$230.99</div>
                         <div class="product-links">
@@ -189,7 +226,7 @@
                     <img src="assets/images/img2.webp" alt="">
                 </div>
                 <div class="product-details">
-                    <h4><a href="">vintage</a></h4>
+                    <h4><a href="assets/pages/product.html">vintage</a></h4>
                     <div class="product-bottom-details">
                         <div class="product-price"><small>$96.00</small>$230.99</div>
                         <div class="product-links">
