@@ -74,11 +74,15 @@ body{
     color: #f4bc1c;
 }
 
+.carousel .item {
+    height: 400px;
+  }
 @media screen and (max-width: 790px) {
     .cart-box{
     margin:30px;
     } 
    }
+ 
    @media screen and (max-width: 480px){
     .img-thumbnail{
         width: 200px;
@@ -92,7 +96,7 @@ body{
        }
    }
    
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .bcrum{
         margin-left: 5%;
         margin-right: 5%;
@@ -100,4 +104,8 @@ body{
         margin-top: 10px;
         border-color: silver;
     }
+    #productCarousel{
+        height: 70%;
+    }
+
 }
