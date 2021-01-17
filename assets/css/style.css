@@ -269,7 +269,6 @@ button.searchButton:hover{
     }
     #cartLogo{
         position: absolute;
-        display:none;
     }
     a>.iconsHeader{
         display: none;
