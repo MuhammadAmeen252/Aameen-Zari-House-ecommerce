@@ -126,7 +126,9 @@ a
     transition: 0.3s;
     font-size: 17px;
 }
-
+#paginationBar{
+    margin-left: 11.5%;
+}
 .product-links a:hover {
     color: #c62121;
 }
@@ -183,6 +185,9 @@ a
     #mainConatiner{
         display: flex;
         margin:0px;
+    }
+    #paginationBar{
+        margin-left: 8%;
     }
     .product-details h4 a {
         font-weight: 300;
