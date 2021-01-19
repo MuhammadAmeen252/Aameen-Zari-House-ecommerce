@@ -9,7 +9,7 @@
 .bcrum{
 	margin-left: 11.5%;
 	margin-right: 12%;
-	margin-top: 10px;
+	margin-top: 1px;
 	border-color: silver;
 }
 
@@ -101,7 +101,7 @@ body{
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
-        margin-top: 10px;
+        margin-top: 40px;
         border-color: silver;
     }
     #productCarousel{

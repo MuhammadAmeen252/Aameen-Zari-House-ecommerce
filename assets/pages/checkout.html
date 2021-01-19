@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aameen Zari</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/checkout.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    </head>
+    <body>
+    
+    <!--Checkout page-->
+
+<div class="logo">
+    <a href="../../index.html"><img src="../images/logonew.png" class="logo-pic"></a>
+</div>
+<div class="container wrapper" style="background-color: white;">
+            <div class="row cart-head">
+                <div class="container">
+                <div class="row">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <div style="display: table; margin: auto;">
+                        <span class="step step_complete" > <a href="shoppingcart.html" style="text-decoration: none;" class="check-bc">Cart</a> <span class="step_line step_complete"> </span> <span class="step_line backline" > </span> </span>
+                        <span class="step step_complete"> <a href="" style="text-decoration: none;" class="check-bc">Checkout</a> <span class="step_line "> </span> <span class="step_line step_complete"> </span> </span>
+                        <span class="step_thankyou check-bc step_complete">Thank you</span>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 20px;">
+                    <p></p>
+                </div>
+                </div>
+            </div>    
+            <div class="row cart-body">
+                <form class="form-horizontal" method="post" action="">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6">
+                    <!--REVIEW ORDER-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" style="color: #c62121;;">
+                            Review Order <div class="pull-right"></div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-sm-3 col-xs-3">
+                                    <img class="img-responsive" src="../images/img2.webp" />
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                    <div class="col-xs-12">Product name</div>
+                                    <div class="col-xs-12"><small>Quantity:<span>1</span></small></div>
+                                </div>
+                                <div class="col-sm-3 col-xs-3 text-right">
+                                    <h6><span>$</span>25.00</h6>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group"><hr /></div>
+                            <div class="form-group">
+                                <div class="col-sm-3 col-xs-3">
+                                    <img class="img-responsive" src="../images/img1.webp" />
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                    <div class="col-xs-12">Product name</div>
+                                    <div class="col-xs-12"><small>Quantity:<span>2</span></small></div>
+                                </div>
+                                <div class="col-sm-3 col-xs-3 text-right">
+                                    <h6><span>$</span>50.00</h6>
+                                </div>
+                            </div>
+                            <div class="form-group"><hr /></div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <strong>Subtotal</strong>
+                                    <div class="pull-right"><span>$</span><span>200.00</span></div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <small>Shipping</small>
+                                    <div class="pull-right"><span>-</span></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <strong>Payment Method</strong>
+                                    <div class="pull-right"><i class="fa fa-money" aria-hidden="true"></i>
+                                        <span style="margin-left: 5px;">Cash on delivery</span></div>
+                                </div>
+                                
+                            </div>
+                            <div class="form-group"><hr /></div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <strong>Order Total</strong>
+                                    <div class="pull-right"><span>$</span><span>150.00</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--REVIEW ORDER END-->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
+                    <!--SHIPPING METHOD-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading" style="color: #c62121;;">Address</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <h4>Shipping Address</h4>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-md-6 col-xs-12">
+                                    <strong>First Name:</strong>
+                                    <input type="text" name="first_name" class="form-control" value="" />
+                                </div>
+                                <div class="span1"></div>
+                                <div class="col-md-6 col-xs-12">
+                                    <strong>Last Name:</strong>
+                                    <input type="text" name="last_name" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Address:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="address" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>City:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="city" class="form-control" value="" />
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Phone Number:</strong></div>
+                                <div class="col-md-12"><input type="text" name="phone_number" class="form-control" value="" /></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Email Address:</strong></div>
+                                <div class="col-md-12"><input type="text" name="email_address" class="form-control" value="" /></div>
+                            </div>
+                            <div class="form-group">
+                                <a class="col-md-6 col-sm-6 col-xs-12 btn btn-danger btn-submit-fix" 
+                                style="width: fit-content;display: block;margin-left: 17px;" href="orderPlacedScreen.html">
+                                    Place Order
+                                    <!-- <button id="BtnPlaceOrder" type="submit" class="btn btn-danger btn-submit-fix">Place Order</button> -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--SHIPPING METHOD END-->
+                    <!--CREDIT CART PAYMENT-->
+                    
+                    <!--CREDIT CART PAYMENT END-->
+                </div>
+                
+                </form>
+            </div>
+            <!-- <div class="row cart-footer">
+        
+            </div> -->
+    </div>
+     
+
+    
+
+
+     <!-- Bottom Footer -->
+     <div class="footer-bottom">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-4 col-sm-12 col-xs-12">
+                 <div class="small text-center">
+                    <p>Copyright © Infinity Computers 2020. All rights reserved.</p>
+                 </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-xs-12 paymentMethodImg">
+                 <div class="center-block">
+                    <img height="25" class="pull-right" src="../images/icons/visa_card.png" alt="img" style="margin-right: 5px;">
+                    <img height="25" class="pull-right" src="../images/icons/paypal.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/american_express_card.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/discover_network_card.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/master_card.png" alt="img" style="margin-right: 5px;"> 
+                    <img height="25" class="pull-right" src="../images/icons/google_wallet.png" alt="img" style="margin-right: 5px;">
+                 </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-xs-12">
+                 <div class="small text-center">
+                    <p>Designed & developed by <strong>Muhammad Ameen</strong>.</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+          
+    </body>
+
+</html>

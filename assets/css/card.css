@@ -143,9 +143,13 @@ a
         margin: 10px auto;
         display: flex;
         flex-direction: column;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     #containerOfProduct{
-        margin-left: 2%;
+        
     }
 
     .product-card {
@@ -168,7 +172,7 @@ a
     }
     
     .product-tumb img {
-        max-width: 100%;
+        width: 95%;
         max-height: 100%;
     }
 
